@@ -33,9 +33,9 @@ color:
 # Footer settings
 footer:
   copyright: Ayhan Kosan
-  location: San Francisco, CA
+  location: Location
   social: Around the Web
-  credits: Credits
+#  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -52,11 +52,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 1840 Clay Street
+  - line: Time zone: GMT-7
   - line: San Francisco, CA 94109
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
