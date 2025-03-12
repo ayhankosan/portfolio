@@ -33,9 +33,9 @@ color:
 # Footer settings
 footer:
   copyright: Ayhan Kosan
-  location: Location
+#  location: Location
   social: Around the Web
-  credit: jekyll-theme-freelancer
+#  credit: jekyll-theme-freelancer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -52,8 +52,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Time zone GMT-7 (PST)
-  - line: San Francisco, CA 94109
+  - line: San Francisco, CA 
 
 # Credits content
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
