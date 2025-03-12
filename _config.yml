@@ -52,7 +52,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Time zone GMT-7
+  - line: Time zone GMT-7 (PST)
   - line: San Francisco, CA 94109
 
 # Credits content
