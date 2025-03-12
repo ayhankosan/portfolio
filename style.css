@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #0052cc, #4364f7);
+  background: linear-gradient(135deg, #5d8ed7, #677ace);
   color: #fff;
   padding: 20px 0;
   position: sticky;
@@ -80,7 +80,7 @@ nav ul li a:hover {
 .section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  border-bottom: 2px solid #0052cc;
+  border-bottom: 2px solid #77a0de;
   display: inline-block;
   padding-bottom: 5px;
 }
@@ -134,7 +134,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background: #003d99;
+  background: #82a6dc;
 }
 
 /* Contact Section */
