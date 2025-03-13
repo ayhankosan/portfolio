@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #007bff; /* Replace with actual color value */
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -51,7 +51,7 @@ hr.star-light {
 }
 
 hr.star-primary {
-    border-color: #6c757d; /* Replace with actual color value */
+    border-color: #{{ site.color.secondary }};
 }
 
 .img-centered {
@@ -61,7 +61,7 @@ hr.star-primary {
 header {
     text-align: center;
     color: #fff;
-    background: #007bff; /* Replace with actual color value */
+    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -160,7 +160,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #007bff;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -190,7 +190,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(0, 123, 255, .9); /* Replace with actual rgba value */
+    background: rgba({{ site.color.primary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -271,7 +271,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #007bff;
+    color: #{{ site.color.primary }};
     background: #fff;
 }
 
@@ -304,6 +304,7 @@ section.success {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
+    vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
@@ -340,7 +341,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #6c757d; /* Replace with actual color value */
+    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
@@ -349,7 +350,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #343a40; /* Replace with actual color value */
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -434,7 +435,7 @@ footer .footer-below {
     height: 75px;
     margin-left: 35px;
     background-color: #{{ site.color.secondary }};
-    background-color: #6c757d;
+    -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -451,7 +452,7 @@ footer .footer-below {
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
-    background-color: #343a40 !important;
+}
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
