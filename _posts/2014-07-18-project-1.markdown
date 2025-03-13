@@ -4,7 +4,7 @@ modal-id: 1
 date: 2014-07-18
 img: cabin.png
 alt: image-alt
-professional focus: Remote Sensing & Machine Learning
+categroy: Remote Sensing & Machine Learning
 link: https://code.earthengine.google.com/86dc6d916cf9807ef48948b99d36c52c
 description: As part of my Master’s Thesis, I developed a comprehensive methodology for identifying and monitoring peatland areas in the European Alps. Peatlands are critical ecosystems that provide essential ecological services, including carbon sequestration, water regulation and habitats for distinctive flora and fauna. They act as natural carbon sinks, effectively capturing and storing significant amounts of CO₂, thus playing a crucial role in climate change mitigation. Utilizing Google Earth Engine, I pre-processed satellite imagery from Sentinel-1 (radar) and Sentinel-2 (optical) to extract relevant environmental variables essential for accurate peatland detection and monitoring. These derived datasets were analyzed through advanced statistical methods and subsequently integrated into machine learning algorithms, specifically Random Forest and Support Vector Machines, to classify, map and monitor peatland locations accurately. This approach enables effective monitoring and assessment, facilitating targeted conservation efforts and sustainable management practices.
 ---
