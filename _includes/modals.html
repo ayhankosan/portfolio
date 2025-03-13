@@ -20,9 +20,9 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.project %}
-              <li>project:
-                <strong>{{ post.project }}</strong>
+              {% if post.link %}
+              <li>Link:
+              <strong><a href="{{ post.link }}" target="_blank">{{ post.link }}</a></strong>
               </li>
               {% endif %}
               {% if post.project-date %}
@@ -31,7 +31,7 @@
               </li>
               {% endif %}
               {% if post.category %}
-              <li>Service:
+              <li>category:
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
