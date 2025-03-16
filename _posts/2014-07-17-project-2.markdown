@@ -2,10 +2,9 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: observation.png
 alt: image-alt
-project-date: April 2014
-project: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+categroy: Remote Sensing, GIS & Machine Learning
+link: https://code.earthengine.google.com/bbf362d005032340dcc77ba6b2dca195
+description: The peatland monitoring tool is a custom script designed for targeted, time-based observation of known peatland areas, offering insights into their health and stability over a user-defined period. By leveraging Google Earth Engine (GEE) and integrating Sentinel-2 satellite imagery, the script enables precise monitoring through cloud masking, spectral index computation, and time-series visualization. Users can manually define their region of interest and adjust the observation period, allowing for both seasonal and long-term analysis of ecosystem changes. To ensure data accuracy, the script applies cloud removal techniques, filtering out cloud-contaminated pixels using Sentinel-2’s QA60 band and an additional cloud probability dataset. The imagery is further enhanced through pansharpening, which increases the spatial resolution of key bands, improving the differentiation of vegetation and water features within the peatlands. <br> Once processed, the script computes a range of spectral indices to analyze vegetation health and hydrological fluctuations, including NDVI, NDWI, MNDWI, ARI, PSRI, REIP, and EVI. These indices allow for a detailed examination of peatland conditions, capturing shifts in water availability and vegetation dynamics over time. The pre-processed images are aggregated into a unified time-series collection, ensuring that only high-quality, cloud-filtered data is used. The script then generates interactive time-series plots, enabling users to track yearly fluctuations in peatland health across multiple observation sites, such as Schwemm and Kendlmühlfilzen. By visualizing trends in vegetation and hydrological indices over selected timeframes, the tool provides data-driven insights into ecosystem stability, stress, and potential degradation. This scalable and efficient monitoring framework serves as a valuable resource for peatland conservation, climate resilience planning, and sustainable land management.
 ---
