@@ -254,13 +254,14 @@ section.success {
         max-width: 23.5%;
     }
 } */
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #001F3F; /* Dark navy blue */
     font-size: 20px;
-    color: #001F3F; /* Dark navy blue */
-    background: 0 0;
-    transition: none;
+    color: #FFFFFF; /* White */
+    background: #001F3F; /* Dark navy blue */
+    transition: all .3s ease-in-out;
 }
 
 .btn-outline:hover,
@@ -269,7 +270,7 @@ section.success {
 .btn-outline.active {
     border: solid 2px #001F3F; /* Dark navy blue */
     color: #001F3F; /* Dark navy blue */
-    background: 0 0;
+    background: #FFFFFF; /* White */
 }
 
 .floating-label-form-group {
