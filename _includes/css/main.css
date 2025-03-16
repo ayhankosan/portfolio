@@ -260,7 +260,7 @@ section.success {
     font-size: 20px;
     color: #001F3F; /* Dark navy blue */
     background: 0 0;
-    transition: all .3s ease-in-out;
+    transition: none;
 }
 
 .btn-outline:hover,
@@ -268,8 +268,8 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #001F3F; /* Dark navy blue */
-    color: #FFFFFF; /* White */
-    background: #001F3F; /* Dark navy blue */
+    color: #001F3F; /* Dark navy blue */
+    background: 0 0;
 }
 
 .floating-label-form-group {
