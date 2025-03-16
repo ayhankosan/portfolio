@@ -1,10 +1,4 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
- body {
+body {
     overflow-x: hidden;
 }
 
@@ -22,7 +16,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #000000; /* Replace with the actual color value */
+    color: #007BFF; /* Modern blue color */
 }
 
 h1,
@@ -52,7 +46,7 @@ hr.star-light {
 }
 
 hr.star-primary {
-    border-color: #000000; /* Replace with the actual color value */
+    border-color: #007BFF; /* Modern blue color */
 }
 
 .img-centered {
@@ -62,7 +56,7 @@ hr.star-primary {
 header {
     text-align: center;
     color: #fff;
-    background: #000000; /* Replace with the actual color value */
+    background: #343A40; /* Modern dark color */
 }
 
 header .container {
@@ -161,7 +155,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #000000; /* Replace with the actual color value */
+    background: #343A40; /* Modern dark color */
 }
 
 @media (max-width: 767px) {
@@ -191,7 +185,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(0, 0, 0, 0.9); /* Replace with the actual RGB values */
+    background: rgba(52, 58, 64, 0.9); /* Modern dark color with transparency */
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -263,9 +257,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #007BFF; /* Modern blue color */
     font-size: 20px;
-    color: #fff;
+    color: #007BFF; /* Modern blue color */
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -274,9 +268,9 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #000000; /* Replace with the actual color value */
-    background: #fff;
+    border: solid 2px #007BFF; /* Modern blue color */
+    color: #fff;
+    background: #007BFF; /* Modern blue color */
 }
 
 .floating-label-form-group {
@@ -326,7 +320,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #000000; /* Replace with the actual color value */
+    color: #007BFF; /* Modern blue color */
 }
 
 form .row:first-child .floating-label-form-group {
@@ -343,7 +337,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #333333; /* Replace with the actual color value */
+    background-color: #343A40; /* Modern dark color */
 }
 
 footer .footer-col {
@@ -352,7 +346,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #333333; /* Replace with the actual color value */
+    background-color: #343A40; /* Modern dark color */
 }
 
 .btn-social {
@@ -436,7 +430,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #000000; /* Replace with the actual color value */
+    background-color: #007BFF; /* Modern blue color */
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -446,14 +440,14 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #000000; /* Replace with the actual color value */
+    background-color: #007BFF; /* Modern blue color */
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .navbar-nav > .active > a {
-    background-color: #333333 !important; /* Replace with the actual color value */
+    background-color: #007BFF !important; /* Modern blue color */
 }
 
 /* Fix modal mouse wheel issues */
