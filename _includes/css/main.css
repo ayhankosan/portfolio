@@ -156,6 +156,7 @@ section h2 {
 section.success {
     color: #FFFFFF; /* White */
     background: #000000; /* Black */
+    letter-spacing: 0.05em; /* Adjust this value for even text spacing */
 }
 
 @media (max-width: 767px) {
