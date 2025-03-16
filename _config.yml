@@ -45,8 +45,8 @@ social:
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
   - title: email
-    url: ayhanxkosan@gmail.com
-  - title: linkedins
+    url: mailto:ayhanxkosan@gmail.com
+  - title: linkedin
     url: https://www.linkedin.com/in/ayhan-kosan/
 
 # Postal address (add as many lines as necessary)
