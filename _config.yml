@@ -44,8 +44,8 @@ social:
 #    url:
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
+  - title: email
+    url: ayhanxkosan@gmail.com
   - title: linkedin
     url: https://www.linkedin.com/in/ayhan-kosan/
 
