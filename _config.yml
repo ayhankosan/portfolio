@@ -22,13 +22,12 @@ contact: static
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: Kosayh
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 80B3FF # Light Blue
-  primary-rgb: "128,179,255" # Light Blue RGB
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 0056b3 # Dark Blue
+  primary-rgb: "0,86,179" # Dark Blue RGB
+  secondary: 2c3e50 # Dark Slate Gray
+  secondary-dark: 233140 # Darker Slate Gray
 
 # Footer settings
 footer:
