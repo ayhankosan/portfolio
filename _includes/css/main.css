@@ -52,11 +52,11 @@ hr.star-primary {
 .img-centered {
     margin: 0 auto;
 }
-
 header {
     text-align: center;
     color: #FFFFFF; /* White */
     background: #81b4ea; /* Black */
+    margin-top: 50px; /* Add space before the header section */
 }
 
 header .container {
