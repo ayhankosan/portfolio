@@ -155,7 +155,7 @@ section h2 {
 
 section.success {
     color: #FFFFFF; /* White */
-    background: #000000; /* Black */
+    background: #81b4ea; /* Black */
     letter-spacing: 0.05em; /* Adjust this value for even text spacing */
     line-height: 1.6; /* Adjust this value for proper line spacing */
     text-align: center; /* Center align the text */
@@ -345,7 +345,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #000000; /* Black */
+    background-color: #81b4ea; /* Black */
 }
 
 footer .footer-col {
@@ -354,7 +354,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #000000; /* Black */
+    background-color: #81b4ea; /* Black */
 }
 
 .btn-social {
