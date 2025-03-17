@@ -160,7 +160,7 @@ section.success {
     background: #81b4ea; /* Black */
     letter-spacing: 0.05em; /* Adjust this value for even text spacing */
     line-height: 1.6; /* Adjust this value for proper line spacing */
-    text-align: center; /* Center align the text */
+    text-align: justify; /* Center align the text */
 }
 
 section.success p {
