@@ -58,7 +58,9 @@ header {
     background: #81b4ea; /* Black */
     margin-top: 50px; /* Add space before the header section */
 }
-
+header {
+    margin-bottom: 50px; /* Add space after the header section */
+}
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;
