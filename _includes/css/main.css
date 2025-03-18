@@ -216,6 +216,10 @@ section.success p {
     color: #FFFFFF; /* White */
 }
 
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
+    font-size: 1.5em; /* Adjust this value to make the font smaller */
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
